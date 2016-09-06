@@ -3,7 +3,7 @@
  */
 
 #include "soc-hw.h"
-
+/*
 inline void writeint(uint32_t val)
 {
 	uint32_t i, digit;
@@ -16,32 +16,38 @@ inline void writeint(uint32_t val)
 			uart_putchar('0'+digit);
 		val <<= 4;
 	}
-}
+}*/
 
-
+/*
 
 char glob[] = "Global";
 
 volatile uint32_t *p;
 volatile uint8_t *p2;
 
-extern uint32_t tic_msec;
+*/
+
+// extern uint32_t tic_msec;
 
 int main()
 {
 	uint32_t aa,bb; 
-for(;;)
-	 uart_putchar('1');
-	 uart_putchar('2');
-	 uart_putchar('3');
-	 uart_putchar('1');
-	  aa=1;
-	   prueba();
-   uart_putchar('b');
+for(;;){
+	uart_putchar('A');
+	uart_putchar('B');
+	uart_putchar('C');
+	uart_putchar('D');
+}
+	
+/*
+* 
+* aa=1;
+	prueba();
+uart_putchar('b');
 
-   char test2[] = "Lokalerstr";
-   char *str = test2;
-   uint32_t i;
+char test2[] = "Lokalerstr";
+char *str = test2;
+uint32_t i;
 
 	// Say Hello!
 	uart_putstr( "** Spike Test Firmware **\n" );
@@ -62,14 +68,14 @@ for(;;)
 
 	uart_putstr( "Local-Pointer Test:" );
 	for (;*str; str++) {
-	   uart_putchar(*str);
+	uart_putchar(*str);
 	}
 	uart_putchar('\n');    
 	
 	uart_putstr( "Global-Pointer Test:" );
 	str = glob;
 	for (;*str; str++) {
-	   uart_putchar(*str);
+	uart_putchar(*str);
 	}
 	uart_putchar('\n');    
 
@@ -105,7 +111,7 @@ for(;;)
 		val <<= 1;
 	}
 	uart_putstr("\r\n");
-/*
+
 	uart_putstr( "GPIO Test..." );
 	gpio0->oe = 0x000000ff;
 	for(;;) {
@@ -119,11 +125,13 @@ for(;;)
 			msleep(100);
 		}
 	}
-*/
+
 
 	uart_putstr("Entering Echo Test...\n");
 	while (1) {
-	   uart_putchar(uart_getchar());
+	uart_putchar(uart_getchar());
 	}
+	
+	*/
 }
 
