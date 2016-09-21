@@ -1,4 +1,4 @@
-XILINXCADROOT   = /opt/cad/Xilinx/10.1/ISE
+XILINXCADROOT   = /opt/Xilinx/14.7/ISE_DS/
 
 VINCDIR=                                  \
 	-I../rtl/wb_conbus                 \
@@ -39,16 +39,17 @@ SRC=                                      \
 	../rtl/wb_timer/wb_timer.v         \
 	../rtl/wb_gpio/wb_gpio.v           \
 	../rtl/wb_spi/wb_spi.v             \
+	../rtl/wb_spi/first_reset.v             \
 	../rtl/wb_i2c/i2c_master_wb_top.v  \
 	../rtl/wb_i2c/i2c_master_registers.v  \
 	../rtl/wb_i2c/i2c_master_byte_ctrl.v  \
 	../rtl/wb_i2c/i2c_master_bit_ctrl.v  \
 	../rtl/wb_conbus/conbus.v          \
-	../rtl/wb_conbus/conbus_arb.v      
+	../rtl/wb_conbus/conbus_arb.v
 
 #############################################################################
 # Synthesis constants
-SYNCLEAN=system.bgn system.drc system.mrp system.ngd system.pcf 
+SYNCLEAN=system.bgn system.drc system.mrp system.ngd system.pcf
 SYNCLEAN+=system.bld system.lso system.ncd system.ngm system.srp
 SYNCLEAN+=system.bit system_signalbrowser.* system-routed_pad.tx
 SYNCLEAN+=system.map system_summary.xml timing.twr
@@ -56,7 +57,7 @@ SYNCLEAN+=system-routed* system_usage* system.ngc param.opt netlist.lst
 SYNCLEAN+=xst system.prj *ngr *xrpt  _xmsgs  xlnx_auto_0_xdb *html *log *xwbt
 
 USAGE_DEPTH=0
-SMARTGUIDE= 
+SMARTGUIDE=
 
 #############################################################################
 # Simulation constants
@@ -66,9 +67,9 @@ CVER=cver
 GTKWAVE=gtkwave
 IVERILOG=iverilog
 VVP=vvp
-	
+
 #############################################################################
-# 
+#
 sim: system_tb.vcd
 syn: system.bit
 view: system_tb.view
@@ -137,7 +138,7 @@ usage: system-routed.xdl
 
 
 upload: system.bit
-	sudo fpgaprog -v -f system.bit 
+	sudo fpgaprog -v -f system.bit
 
 
 ####################################################################
@@ -147,8 +148,6 @@ upload: system.bit
 	cd simulation && $(GTKWAVE) $< $<.save.sav
 
 clean:
-	rm -Rf build $(SYNCLEAN) $(SIMCLEAN) 
+	rm -Rf build $(SYNCLEAN) $(SIMCLEAN)
 
 .PHONY: clean view
-
-

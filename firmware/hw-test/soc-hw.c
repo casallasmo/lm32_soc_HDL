@@ -9,20 +9,20 @@ i2c_t   *i2c0   = (i2c_t *)    0x60000000;
 
 isr_ptr_t isr_table[32];
 
-void prueba()
-{
-	   uart0->rxtx=30;
-	   timer0->tcr0 = 0xAA;
-	   gpio0->ctrl=0x55;
-	   spi0->rxtx=1;
-	   spi0->nop1=2;
-	   spi0->cs=3;
-	   spi0->nop2=5;
-	   spi0->divisor=4;
-	   i2c0->rxtx=5;
-	   i2c0->divisor=5;
-
-}
+// void prueba()
+// {
+// 	   uart0->rxtx=30;
+// 	   timer0->tcr0 = 0xAA;
+// 	   gpio0->ctrl=0x55;
+// 	   spi0->rxtx=1;
+// 	   spi0->nop1=2;
+// 	   spi0->cs=3;
+// 	   spi0->nop2=5;
+// 	   spi0->divisor=4;
+// 	   i2c0->rxtx=5;
+// 	   i2c0->divisor=5;
+//
+// }
 void tic_isr();
 /***************************************************************************
  * IRQ handling
@@ -127,7 +127,7 @@ void uart_init()
 }
 
 char uart_getchar()
-{   
+{
 	while (! (uart0->ucr & UART_DR)) ;
 	return uart0->rxtx;
 }
@@ -147,3 +147,125 @@ void uart_putstr(char *str)
 	}
 }
 
+/***************************************************************************
+ * SPI Functions
+ */
+
+
+
+// ok, it's working as it should
+void spi_sendbyte(uint8_t c, uint8_t d_c)
+{
+	while (!(spi0->rst_done & SPI_RST_DONE) || (spi0->state)) ;
+	// todo cambiar a un solo registro
+	spi0->divisor = 0xFF;
+	spi0->spi_cs = 0;
+	spi0->dc = d_c;
+	spi0->rxtx = c;
+}
+
+// void spi_lcd_putstring(char *str)
+// {
+//  char *c = str;
+//   while (*c)
+//   {
+//     spi_lcd_putchar(*c);
+// 	c++;
+//   }
+// }
+
+// void spi_lcd_putchar(char *c)
+// {
+// 	int i;
+//   for (i = 0; i < 5; i++)
+//   {
+//     spi_sendbyte(ASCII[*c-32][i], 1);
+//   }
+//   // spi_sendbyte(0x00, 1);
+// }
+
+// void spi_lcd_putchar1(char *c)
+// {
+// 	int i;
+//   for (i = 0; i < 5; i++)
+//   {
+//     spi_sendbyte(ASCII[*c-31][i], 1);
+//   }
+//   // spi_sendbyte(0x00, 1);
+// }
+//
+// void spi_lcd_putchar2(char *c)
+// {
+// 	int i;
+//   for (i = 0; i < 5; i++)
+//   {
+//     spi_sendbyte(ASCII[*c-28][i], 1);
+//   }
+//   // spi_sendbyte(0x00, 1);
+// }
+//
+// void spi_lcd_putchar1(const char c[])
+// {
+//
+//     spi_sendbyte(ASCII[c[0]][0], 1);
+// 	spi_sendbyte(ASCII[c[0]][1], 1);
+// 	spi_sendbyte(ASCII[c[0]][2], 1);
+// 	spi_sendbyte(ASCII[c[0]][3], 1);
+// 	spi_sendbyte(ASCII[c[0]][4], 1);
+//
+// 	spi_sendbyte(ASCII[(int) c[0]][0], 1);
+// 	spi_sendbyte(ASCII[(int) c[0]][1], 1);
+// 	spi_sendbyte(ASCII[(int) c[0]][2], 1);
+// 	spi_sendbyte(ASCII[(int) c[0]][3], 1);
+// 	spi_sendbyte(ASCII[(int) c[0]][4], 1);
+//
+//
+//   // spi_sendbyte(0x00, 1);
+// }
+
+
+
+// ok, it's working as it should
+void spi_lcd_blank(void)
+{
+	int i;
+  for ( i = 0; i < 504; i++)
+  {
+    spi_sendbyte(0x00, 1);
+  }
+}
+
+// ok, it's working as it should
+void spi_lcd_init(void)
+{
+	spi_sendbyte(EXTENDED_ISET,0);
+	spi_sendbyte(BIAS_VAL,0);
+	spi_sendbyte(CONTRAST_VAL,0);
+	spi_sendbyte(BASIC_ISET,0);
+	spi_sendbyte(NORMAL_MODE,0);
+}
+// ok, it's working as it should
+void spi_lcd_invert()
+{
+	spi_sendbyte(INVERSE_MODE, 0);
+}
+
+uint8_t spi_lcd_getx()
+{
+	return spi0->x_pos;
+}
+
+uint8_t spi_lcd_gety()
+{
+	return spi0->y_pos;
+}
+//
+// void spi_lcd_setx(uint8_t x)
+// {
+// 	spi_sendbyte(,0);
+// }
+//
+// void spi_lcd_sety(uint8_t y)
+// {
+// 	spi_sendbyte(,0);
+// }

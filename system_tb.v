@@ -9,7 +9,7 @@ module system_tb;
 // Parameter (may differ for physical synthesis)
 //----------------------------------------------------------------------------
 parameter tck              = 10;       // clock period in ns
-parameter uart_baud_rate   = 1152000;  // uart baud rate for simulation 
+parameter uart_baud_rate   = 1152000;  // uart baud rate for simulation
 
 parameter clk_freq = 1000000000 / tck; // Frequenzy in HZ
 //----------------------------------------------------------------------------
@@ -26,7 +26,7 @@ wire         uart_rxd;
 wire         uart_txd;
 
 //----------------------------------------------------------------------------
-// Device Under Test 
+// Device Under Test
 //----------------------------------------------------------------------------
 system #(
 	.clk_freq(           clk_freq         ),
@@ -58,7 +58,7 @@ initial begin
 	#0  rst <= 0;
 	#40 rst <= 1;
 
-	#(tck*10000) $finish;
+	#(1800000) $finish;
 end
 
 

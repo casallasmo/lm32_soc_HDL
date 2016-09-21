@@ -1,0 +1,1 @@
+se deben configurar vector de interrupciones de cada periferico sobre el procesador, se envia una interrupcion hacia el procesador directamente 

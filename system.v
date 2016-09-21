@@ -14,21 +14,35 @@ module system
 	parameter   uart_baud_rate   = 115200
 ) (
 	input             clk,
-	// Debug 
+	// Debug
 	output            led,
 	input             rst,
 
 	// UART
-	input             uart_rxd, 
+	input             uart_rxd,
 	output            uart_txd,
 	// SPI
-	input             spi_miso, 
-	output            spi_mosi,
-	output            spi_clk,
+	// input             spi_miso,
+	// output            spi_mosi,
+	// output            spi_clk,
+
+	output rst_lcd,
+	output spi_sce,
+	output spi_dc,
+	output spi_mosi,
+	input spi_miso,
+	output spi_sck
+
 	// 12c
-	inout             i2c_sda, 
-	inout             i2c_scl
-	
+	// inout             i2c_sda,
+	// inout             i2c_scl
+
+// 	static_screen
+	// output st_scn_dc,
+	// output st_scn_mosi,
+	// output st_scn_rst_lcd,
+	// output st_scn_sce,
+	// output st_scn_sck
 
 );
 
@@ -37,7 +51,7 @@ wire sys_clk = clk;
 wire sys_clk_n = ~clk;
 
 
-	
+
 //------------------------------------------------------------------
 // Whishbone Wires
 //------------------------------------------------------------------
@@ -45,7 +59,7 @@ wire         gnd   =  1'b0;
 wire   [3:0] gnd4  =  4'h0;
 wire  [31:0] gnd32 = 32'h00000000;
 
- 
+
 wire [31:0]  lm32i_adr,
              lm32d_adr,
              uart0_adr,
@@ -56,6 +70,7 @@ wire [31:0]  lm32i_adr,
              ddr0_adr,
              bram0_adr,
              sram0_adr;
+				    //  st_scn0_adr;
 
 
 wire [31:0]  lm32i_dat_r,
@@ -78,6 +93,8 @@ wire [31:0]  lm32i_dat_r,
              sram0_dat_r,
              ddr0_dat_w,
              ddr0_dat_r;
+	    //  st_scn0_w,
+	    //  st_scn0_r;
 
 wire [3:0]   lm32i_sel,
              lm32d_sel,
@@ -89,6 +106,7 @@ wire [3:0]   lm32i_sel,
              bram0_sel,
              sram0_sel,
              ddr0_sel;
+	    //  st_scn0_sel;
 
 wire         lm32i_we,
              lm32d_we,
@@ -100,6 +118,7 @@ wire         lm32i_we,
              bram0_we,
              sram0_we,
              ddr0_we;
+	    //  st_scn0_we;
 
 
 wire         lm32i_cyc,
@@ -112,6 +131,7 @@ wire         lm32i_cyc,
              bram0_cyc,
              sram0_cyc,
              ddr0_cyc;
+	    //  st_scn0_cyc;
 
 
 wire         lm32i_stb,
@@ -124,6 +144,7 @@ wire         lm32i_stb,
              bram0_stb,
              sram0_stb,
              ddr0_stb;
+	    //  st_scn0_stb;
 
 wire         lm32i_ack,
              lm32d_ack,
@@ -135,6 +156,7 @@ wire         lm32i_ack,
              bram0_ack,
              sram0_ack,
              ddr0_ack;
+	    //  st_scn0_ack;
 
 
 wire         lm32i_rty,
@@ -167,12 +189,13 @@ assign intr_n = { 28'hFFFFFFF, ~timer0_intr[1], ~gpio0_intr, ~timer0_intr[0], ~u
 //---------------------------------------------------------------------------
 conbus #(
 	.s_addr_w(3),
-	.s0_addr(3'b000),	// bram     0x00000000 
-	.s1_addr(3'b010),	// uart0    0x20000000 
-	.s2_addr(3'b011),	// timer    0x30000000 
-	.s3_addr(3'b100),   // gpio     0x40000000 
-	.s4_addr(3'b101),	// spi      0x50000000 
-	.s5_addr(3'b110)	// i2c      0x60000000 
+	.s0_addr(3'b000),	// bram     0x00000000
+	.s1_addr(3'b010),	// uart0    0x20000000
+	.s2_addr(3'b011),	// timer    0x30000000
+	.s3_addr(3'b100),   // gpio     0x40000000
+	.s4_addr(3'b101),	// spi      0x50000000
+	.s5_addr(3'b110)	// i2c      0x60000000
+// s6_adr(3'b111)	// static_screen 0x70000000
 ) conbus0(
 	.sys_clk( clk ),
 	.sys_rst( ~rst ),
@@ -250,12 +273,23 @@ conbus #(
 	.s5_cyc_o(  i2c0_cyc   ),
 	.s5_stb_o(  i2c0_stb   ),
 	.s5_ack_i(  i2c0_ack   )
-	
+
+	// Slave6
+	// .s6_dat_i(  st_scn0_r ),
+	// .s6_dat_o(  st_scn0_w),
+	// .s6_adr_o(  st_scn0_adr   ),
+	// .s6_sel_o(  st_scn0_sel   ),
+	// .s6_we_o(   st_scn0_we    ),
+	// .s6_cyc_o(  st_scn0_cyc   ),
+	// .s6_stb_o(  st_scn0_stb  ),
+	// .s6_ack_i(  st_scn0_ack   )
+
+
 );
 
 
 //---------------------------------------------------------------------------
-// LM32 CPU 
+// LM32 CPU
 //---------------------------------------------------------------------------
 lm32_cpu lm0 (
 	.clk_i(  clk  ),
@@ -290,7 +324,7 @@ lm32_cpu lm0 (
 	.D_ERR_I(  lm32d_err    ),
 	.D_RTY_I(  lm32d_rty    )
 );
-	
+
 //---------------------------------------------------------------------------
 // Block RAM
 //---------------------------------------------------------------------------
@@ -333,7 +367,7 @@ wb_uart #(
 	.wb_cyc_i( uart0_cyc ),
 	.wb_we_i(  uart0_we ),
 	.wb_sel_i( uart0_sel ),
-	.wb_ack_o( uart0_ack ), 
+	.wb_ack_o( uart0_ack ),
 //	.intr(       uart0_intr ),
 	.uart_rxd( uart0_rxd ),
 	.uart_txd( uart0_txd )
@@ -345,6 +379,9 @@ wb_uart #(
 wire spi0_mosi;
 wire spi0_miso;
 wire spi0_clk;
+wire spi0_cs_out;
+wire spi0_lcd_rst;
+wire spi0_lcd_dc;
 
 wb_spi  spi0 (
 	.clk( clk ),
@@ -357,11 +394,46 @@ wb_spi  spi0 (
 	.wb_cyc_i( spi0_cyc ),
 	.wb_we_i(  spi0_we ),
 	.wb_sel_i( spi0_sel ),
-	.wb_ack_o( spi0_ack ), 
+	.wb_ack_o( spi0_ack ),
+	// output spi fpga pinout
 	.spi_sck(spi0_clk),
 	.spi_mosi( spi0_mosi ),
-	.spi_miso( spi0_miso )
+	.spi_miso( spi0_miso ),
+	.spi_cs_out(spi0_cs_out),
+	.spi_lcd_rst(spi0_lcd_rst),
+	.spi_lcd_dc(spi0_lcd_dc)
 );
+
+//---------------------------------------------------------------------------
+// static_screen
+//---------------------------------------------------------------------------
+//
+// wire st_scn0_dc;
+// wire st_scn0_mosi;
+// wire st_scn0_rst_lcd;
+// wire st_scn0_sce;
+// wire st_scn0_sck;
+//
+// wb_static_screen st_scn0 (
+// 			.clk(clk),
+// 			.reset( ~rst),
+// //
+// 			  .wb_stb_i(st_scn0_stb),
+// 			  .wb_clk_i(st_scn0_cyc),
+// 			  .wb_ack_o(st_scn0_ack),
+// 			  .wb_we_i(st_scn0_we),
+// 			  .wb_adr_i(st_scn0_adr),
+// 			  .wb_sel_i(st_scn0_sel),
+// 			  .wb_dat_i(st_scn0_w),
+// 			  .wb_dat_o(st_scn0_r),
+// 			  .o_w_dc(st_scn0_dc),
+// 			  .o_w_mosi(st_scn0_mosi),
+// 			  .o_w_rst_lcd(st_scn0_rst_lcd),
+// 			  .o_w_sce(st_scn0_sce),
+// 			  .o_w_sck(st_scn0_sck)
+// );
+
+
 //---------------------------------------------------------------------------
 // i2c0
 //---------------------------------------------------------------------------
@@ -379,7 +451,7 @@ wb_spi  spi0 (
 	.wb_stb_i( i2c0_stb ),
 	.wb_cyc_i( i2c0_cyc ),
 	.wb_we_i(  i2c0_we ),
-	.wb_ack_o( i2c0_ack ), 
+	.wb_ack_o( i2c0_ack ),
 	.scl(i2c0_scl),
 	.sda( i2c0_sda )
 );
@@ -400,7 +472,7 @@ wb_timer #(
 	.wb_cyc_i( timer0_cyc   ),
 	.wb_we_i(  timer0_we    ),
 	.wb_sel_i( timer0_sel   ),
-	.wb_ack_o( timer0_ack   ), 
+	.wb_ack_o( timer0_ack   ),
 	.intr(     timer0_intr  )
 );
 
@@ -421,7 +493,7 @@ wb_gpio gpio0 (
 	.wb_stb_i( gpio0_stb    ),
 	.wb_cyc_i( gpio0_cyc    ),
 	.wb_we_i(  gpio0_we     ),
-	.wb_ack_o( gpio0_ack    ), 
+	.wb_ack_o( gpio0_ack    ),
 	// GPIO
 	.gpio_io(gpio0_io)
 );
@@ -434,9 +506,20 @@ assign uart0_rxd = uart_rxd;
 assign led       = ~uart_txd;
 
 assign spi_mosi  = spi0_mosi;
-assign spi0_miso = spi_miso;
-assign spi_clk = spi0_clk;
+assign spi0_miso = spi_miso; // es necesario para lcd en Synthesis
+assign spi_sck = spi0_clk;
+assign spi_dc = spi0_lcd_dc;
+assign rst_lcd = spi0_lcd_rst;
+assign spi_sce = spi0_cs_out;
 
 assign i2c_sda = i2c0_sda;
 assign i2c_scl = i2c0_scl;
-endmodule 
+// salida hacia fpga static_screen
+// assign st_scn_dc = st_scn0_dc;
+// assign st_scn_mosi = st_scn0_mosi;
+// assign st_scn_rst_lcd = st_scn0_rst_lcd;
+// assign st_scn_sce = st_scn0_sce;
+// assign st_scn_sck = st_scn0_sck;
+//
+
+endmodule

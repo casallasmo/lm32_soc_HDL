@@ -20,6 +20,7 @@ verilog work ../rtl/wb_uart/wb_uart.v
 verilog work ../rtl/wb_timer/wb_timer.v
 verilog work ../rtl/wb_gpio/wb_gpio.v
 verilog work ../rtl/wb_spi/wb_spi.v
+verilog work ../rtl/wb_spi/first_reset.v
 verilog work ../rtl/wb_i2c/i2c_master_wb_top.v
 verilog work ../rtl/wb_i2c/i2c_master_registers.v
 verilog work ../rtl/wb_i2c/i2c_master_byte_ctrl.v

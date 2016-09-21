@@ -50,126 +50,127 @@ RTL Output                         : yes
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" into library work
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" into library work
 Parsing module <system>.
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lac/lac.v" into library work
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lac/lac.v" into library work
 Parsing module <lac>.
-INFO:HDLCompiler:693 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lac/lac.v" Line 23. parameter declaration becomes local in lac with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lac/lac.v" Line 24. parameter declaration becomes local in lac with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lac/lac.v" Line 25. parameter declaration becomes local in lac with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lac/lac.v" Line 86. parameter declaration becomes local in lac with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lac/lac.v" Line 87. parameter declaration becomes local in lac with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lac/lac.v" Line 88. parameter declaration becomes local in lac with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lac/lac.v" Line 89. parameter declaration becomes local in lac with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lac/lac.v" Line 90. parameter declaration becomes local in lac with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lac/lac.v" Line 91. parameter declaration becomes local in lac with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lac/lac.v" Line 92. parameter declaration becomes local in lac with formal parameter declaration list
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lac/uart.v" into library work
+INFO:HDLCompiler:693 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lac/lac.v" Line 23. parameter declaration becomes local in lac with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lac/lac.v" Line 24. parameter declaration becomes local in lac with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lac/lac.v" Line 25. parameter declaration becomes local in lac with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lac/lac.v" Line 86. parameter declaration becomes local in lac with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lac/lac.v" Line 87. parameter declaration becomes local in lac with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lac/lac.v" Line 88. parameter declaration becomes local in lac with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lac/lac.v" Line 89. parameter declaration becomes local in lac with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lac/lac.v" Line 90. parameter declaration becomes local in lac with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lac/lac.v" Line 91. parameter declaration becomes local in lac with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lac/lac.v" Line 92. parameter declaration becomes local in lac with formal parameter declaration list
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lac/uart.v" into library work
 Parsing module <uart>.
-INFO:HDLCompiler:693 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lac/uart.v" Line 24. parameter declaration becomes local in uart with formal parameter declaration list
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lac/dp_ram.v" into library work
+INFO:HDLCompiler:693 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lac/uart.v" Line 24. parameter declaration becomes local in uart with formal parameter declaration list
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lac/dp_ram.v" into library work
 Parsing module <dp_ram>.
-INFO:HDLCompiler:693 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lac/dp_ram.v" Line 20. parameter declaration becomes local in dp_ram with formal parameter declaration list
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_cpu.v" into library work
-Parsing verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_include.v" included at line 24.
-Parsing verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system_conf.v" included at line 28.
+INFO:HDLCompiler:693 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lac/dp_ram.v" Line 20. parameter declaration becomes local in dp_ram with formal parameter declaration list
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_cpu.v" into library work
+Parsing verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_include.v" included at line 24.
+Parsing verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system_conf.v" included at line 28.
 Parsing module <lm32_cpu>.
-Parsing verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_functions.v" included at line 423.
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_instruction_unit.v" into library work
-Parsing verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_include.v" included at line 24.
+Parsing verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_functions.v" included at line 423.
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_instruction_unit.v" into library work
+Parsing verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_include.v" included at line 24.
 Parsing module <lm32_instruction_unit>.
-Parsing verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_functions.v" included at line 291.
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_decoder.v" into library work
-Parsing verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_include.v" included at line 24.
+Parsing verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_functions.v" included at line 291.
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_decoder.v" into library work
+Parsing verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_include.v" included at line 24.
 Parsing module <lm32_decoder>.
-Parsing verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_functions.v" included at line 298.
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_simtrace.v" into library work
-Parsing verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_include.v" included at line 10.
+Parsing verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_functions.v" included at line 298.
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_simtrace.v" into library work
+Parsing verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_include.v" included at line 10.
 Parsing module <lm32_simtrace>.
-Parsing verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_functions.v" included at line 63.
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_load_store_unit.v" into library work
-Parsing verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_include.v" included at line 24.
+Parsing verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_functions.v" included at line 63.
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_load_store_unit.v" into library work
+Parsing verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_include.v" included at line 24.
 Parsing module <lm32_load_store_unit>.
-Parsing verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_functions.v" included at line 208.
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_adder.v" into library work
-Parsing verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_include.v" included at line 24.
+Parsing verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_functions.v" included at line 208.
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_adder.v" into library work
+Parsing verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_include.v" included at line 24.
 Parsing module <lm32_adder>.
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_addsub.v" into library work
-Parsing verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_include.v" included at line 23.
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_addsub.v" into library work
+Parsing verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_include.v" included at line 23.
 Parsing module <lm32_addsub>.
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_logic_op.v" into library work
-Parsing verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_include.v" included at line 24.
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_logic_op.v" into library work
+Parsing verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_include.v" included at line 24.
 Parsing module <lm32_logic_op>.
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_shifter.v" into library work
-Parsing verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_include.v" included at line 24.
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_shifter.v" into library work
+Parsing verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_include.v" included at line 24.
 Parsing module <lm32_shifter>.
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_multiplier.v" into library work
-Parsing verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_include.v" included at line 24.
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_multiplier.v" into library work
+Parsing verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_include.v" included at line 24.
 Parsing module <lm32_multiplier>.
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_mc_arithmetic.v" into library work
-Parsing verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_include.v" included at line 24.
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_mc_arithmetic.v" into library work
+Parsing verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_include.v" included at line 24.
 Parsing module <lm32_mc_arithmetic>.
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_interrupt.v" into library work
-Parsing verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system_conf.v" included at line 24.
-Parsing verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_include.v" included at line 25.
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_interrupt.v" into library work
+Parsing verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system_conf.v" included at line 24.
+Parsing verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_include.v" included at line 25.
 Parsing module <lm32_interrupt>.
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_ram.v" into library work
-Parsing verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_include.v" included at line 23.
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_ram.v" into library work
+Parsing verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_include.v" included at line 23.
 Parsing module <lm32_ram>.
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_bram/wb_bram.v" into library work
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_bram/wb_bram.v" into library work
 Parsing module <wb_bram>.
-INFO:HDLCompiler:693 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_bram/wb_bram.v" Line 25. parameter declaration becomes local in wb_bram with formal parameter declaration list
-INFO:HDLCompiler:693 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_bram/wb_bram.v" Line 26. parameter declaration becomes local in wb_bram with formal parameter declaration list
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_uart/wb_uart.v" into library work
+INFO:HDLCompiler:693 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_bram/wb_bram.v" Line 25. parameter declaration becomes local in wb_bram with formal parameter declaration list
+INFO:HDLCompiler:693 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_bram/wb_bram.v" Line 26. parameter declaration becomes local in wb_bram with formal parameter declaration list
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_uart/wb_uart.v" into library work
 Parsing module <wb_uart>.
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_timer/wb_timer.v" into library work
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_timer/wb_timer.v" into library work
 Parsing module <wb_timer>.
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_gpio/wb_gpio.v" into library work
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_gpio/wb_gpio.v" into library work
 Parsing module <wb_gpio>.
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_spi/wb_spi.v" into library work
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_spi/wb_spi.v" into library work
 Parsing module <wb_spi>.
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_i2c/i2c_master_wb_top.v" into library work
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_spi/first_reset.v" into library work
+Parsing module <first_reset>.
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_i2c/i2c_master_wb_top.v" into library work
 Parsing module <i2c_master_wb_top>.
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_i2c/i2c_master_registers.v" into library work
-Parsing verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_i2c/timescale.v" included at line 50.
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_i2c/i2c_master_registers.v" into library work
+Parsing verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_i2c/timescale.v" included at line 50.
 Parsing module <i2c_master_registers>.
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_i2c/i2c_master_byte_ctrl.v" into library work
-Parsing verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_i2c/i2c_master_defines.v" included at line 92.
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_i2c/i2c_master_byte_ctrl.v" into library work
+Parsing verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_i2c/i2c_master_defines.v" included at line 92.
 Parsing module <i2c_master_byte_ctrl>.
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_i2c/i2c_master_bit_ctrl.v" into library work
-Parsing verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_i2c/i2c_master_defines.v" included at line 147.
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_i2c/i2c_master_bit_ctrl.v" into library work
+Parsing verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_i2c/i2c_master_defines.v" included at line 147.
 Parsing module <i2c_master_bit_ctrl>.
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_conbus/conbus.v" into library work
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_conbus/conbus.v" into library work
 Parsing module <conbus>.
-Analyzing Verilog file "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_conbus/conbus_arb.v" into library work
+Analyzing Verilog file "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_conbus/conbus_arb.v" into library work
 Parsing module <conbus_arb>.
 
 =========================================================================
 *                            HDL Elaboration                            *
 =========================================================================
-WARNING:HDLCompiler:1016 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" Line 168: Port m0_cti_i is not connected to this instance
-WARNING:HDLCompiler:1016 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" Line 349: Port spi_cs is not connected to this instance
-WARNING:HDLCompiler:1016 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" Line 372: Port arst_i is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" Line 190: Port m0_cti_i is not connected to this instance
+WARNING:HDLCompiler:1016 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" Line 444: Port arst_i is not connected to this instance
 
 Elaborating module <system>.
 
 Elaborating module <conbus(s_addr_w=3,s0_addr=3'b0,s1_addr=3'b010,s2_addr=3'b011,s3_addr=3'b100,s4_addr=3'b101,s5_addr=3'b110)>.
 
 Elaborating module <conbus_arb>.
-WARNING:HDLCompiler:1127 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" Line 230: Assignment to gpio0_sel ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" Line 248: Assignment to i2c0_sel ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" Line 253: Assignment to gpio0_sel ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" Line 271: Assignment to i2c0_sel ignored, since the identifier is never used
 
 Elaborating module <lm32_cpu>.
 
 Elaborating module <lm32_instruction_unit(associativity=1,sets=512,bytes_per_line=16,base_address=0,limit=0)>.
-"/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_instruction_unit.v" Line 699. $display Instruction bus error. Address: 0
-WARNING:HDLCompiler:1127 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_cpu.v" Line 461: Assignment to pc_x ignored, since the identifier is never used
+"/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_instruction_unit.v" Line 699. $display Instruction bus error. Address: 0
+WARNING:HDLCompiler:1127 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_cpu.v" Line 461: Assignment to pc_x ignored, since the identifier is never used
 
 Elaborating module <lm32_simtrace>.
-WARNING:HDLCompiler:1499 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_simtrace.v" Line 20: Empty module <lm32_simtrace> remains a black box.
+WARNING:HDLCompiler:1499 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_simtrace.v" Line 20: Empty module <lm32_simtrace> remains a black box.
 
 Elaborating module <lm32_decoder>.
-WARNING:HDLCompiler:413 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_decoder.v" Line 559: Result of 32-bit expression is truncated to fit in 30-bit target.
+WARNING:HDLCompiler:413 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_decoder.v" Line 559: Result of 32-bit expression is truncated to fit in 30-bit target.
 
 Elaborating module <lm32_load_store_unit(associativity=1,sets=512,bytes_per_line=16,base_address=0,limit=0)>.
 
@@ -184,13 +185,13 @@ Elaborating module <lm32_multiplier>.
 Elaborating module <lm32_mc_arithmetic>.
 
 Elaborating module <lm32_interrupt>.
-WARNING:HDLCompiler:1127 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_cpu.v" Line 1138: Assignment to x_result_sel_logic_x ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" Line 273: Assignment to lm32i_cti ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" Line 274: Assignment to lm32i_lock ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" Line 275: Assignment to lm32i_bte ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" Line 287: Assignment to lm32d_cti ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" Line 288: Assignment to lm32d_lock ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" Line 289: Assignment to lm32d_bte ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_cpu.v" Line 1138: Assignment to x_result_sel_logic_x ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" Line 307: Assignment to lm32i_cti ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" Line 308: Assignment to lm32i_lock ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" Line 309: Assignment to lm32i_bte ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" Line 321: Assignment to lm32d_cti ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" Line 322: Assignment to lm32d_lock ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" Line 323: Assignment to lm32d_bte ignored, since the identifier is never used
 
 Elaborating module <wb_bram(adr_width=12,mem_file_name="../firmware/hw-test/image.ram")>.
 Reading initialization file \"../firmware/hw-test/image.ram\".
@@ -198,69 +199,86 @@ Reading initialization file \"../firmware/hw-test/image.ram\".
 Elaborating module <wb_uart(clk_freq=100000000,baud=115200)>.
 
 Elaborating module <uart(freq_hz=100000000,baud=115200)>.
-WARNING:HDLCompiler:413 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lac/uart.v" Line 39: Result of 32-bit expression is truncated to fit in 16-bit target.
-WARNING:HDLCompiler:413 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lac/uart.v" Line 88: Result of 5-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lac/uart.v" Line 91: Result of 5-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lac/uart.v" Line 135: Result of 5-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lac/uart.v" Line 138: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lac/uart.v" Line 39: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lac/uart.v" Line 88: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lac/uart.v" Line 91: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lac/uart.v" Line 135: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lac/uart.v" Line 138: Result of 5-bit expression is truncated to fit in 4-bit target.
 
 Elaborating module <wb_spi>.
-WARNING:HDLCompiler:413 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_spi/wb_spi.v" Line 57: Result of 9-bit expression is truncated to fit in 8-bit target.
-WARNING:HDLCompiler:413 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_spi/wb_spi.v" Line 63: Result of 4-bit expression is truncated to fit in 3-bit target.
+
+Elaborating module <first_reset>.
+WARNING:HDLCompiler:413 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_spi/first_reset.v" Line 39: Result of 9-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_spi/first_reset.v" Line 43: Result of 9-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_spi/first_reset.v" Line 53: Result of 9-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_spi/wb_spi.v" Line 115: Result of 9-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_spi/wb_spi.v" Line 121: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_spi/wb_spi.v" Line 123: Result of 8-bit expression is truncated to fit in 7-bit target.
+WARNING:HDLCompiler:413 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_spi/wb_spi.v" Line 130: Result of 4-bit expression is truncated to fit in 3-bit target.
 
 Elaborating module <i2c_master_wb_top>.
 
 Elaborating module <i2c_master_byte_ctrl>.
-WARNING:HDLCompiler:1308 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_i2c/i2c_master_byte_ctrl.v" Line 257: Found full_case directive in module i2c_master_byte_ctrl. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+WARNING:HDLCompiler:1308 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_i2c/i2c_master_byte_ctrl.v" Line 257: Found full_case directive in module i2c_master_byte_ctrl. Use of full_case directives may cause differences between RTL and post-synthesis simulation
 
 Elaborating module <i2c_master_bit_ctrl>.
-WARNING:HDLCompiler:1308 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_i2c/i2c_master_bit_ctrl.v" Line 376: Found full_case directive in module i2c_master_bit_ctrl. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+WARNING:HDLCompiler:1308 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_i2c/i2c_master_bit_ctrl.v" Line 376: Found full_case directive in module i2c_master_bit_ctrl. Use of full_case directives may cause differences between RTL and post-synthesis simulation
 
 Elaborating module <i2c_master_registers>.
-WARNING:HDLCompiler:189 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" Line 376: Size mismatch in connection of port <wb_adr_i>. Formal port size is 3-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" Line 377: Size mismatch in connection of port <wb_dat_i>. Formal port size is 8-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" Line 378: Size mismatch in connection of port <wb_dat_o>. Formal port size is 8-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" Line 448: Size mismatch in connection of port <wb_adr_i>. Formal port size is 3-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" Line 449: Size mismatch in connection of port <wb_dat_i>. Formal port size is 8-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" Line 450: Size mismatch in connection of port <wb_dat_o>. Formal port size is 8-bit while actual signal size is 32-bit.
 
 Elaborating module <wb_timer(clk_freq=100000000)>.
 
 Elaborating module <wb_gpio>.
-WARNING:HDLCompiler:634 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" Line 140: Net <lm32i_rty> does not have a driver.
-WARNING:HDLCompiler:634 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" Line 141: Net <lm32d_rty> does not have a driver.
-WARNING:HDLCompiler:634 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" Line 143: Net <lm32i_err> does not have a driver.
-WARNING:HDLCompiler:634 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" Line 144: Net <lm32d_err> does not have a driver.
-WARNING:HDLCompiler:634 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" Line 161: Net <gpio0_intr> does not have a driver.
-WARNING:HDLCompiler:552 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" Line 176: Input port m0_cti_i[2] is not connected on this instance
-WARNING:HDLCompiler:552 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" Line 372: Input port arst_i is not connected on this instance
-WARNING:Xst:2972 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_cpu.v" line 483. All outputs of instance <simtrace> of block <lm32_simtrace> are unconnected in block <lm32_cpu>. Underlying logic will be removed.
+WARNING:HDLCompiler:1127 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" Line 515: Assignment to i2c_sda ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" Line 516: Assignment to i2c_scl ignored, since the identifier is never used
+WARNING:HDLCompiler:634 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" Line 162: Net <lm32i_rty> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" Line 163: Net <lm32d_rty> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" Line 165: Net <lm32i_err> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" Line 166: Net <lm32d_err> does not have a driver.
+WARNING:HDLCompiler:634 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" Line 183: Net <gpio0_intr> does not have a driver.
+WARNING:HDLCompiler:552 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" Line 199: Input port m0_cti_i[2] is not connected on this instance
+WARNING:HDLCompiler:552 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" Line 444: Input port arst_i is not connected on this instance
+WARNING:Xst:2972 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_cpu.v" line 483. All outputs of instance <simtrace> of block <lm32_simtrace> are unconnected in block <lm32_cpu>. Underlying logic will be removed.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <system>.
-    Related source file is "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v".
+    Related source file is "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v".
         bootram_file = "../firmware/hw-test/image.ram"
         clk_freq = 100000000
         uart_baud_rate = 115200
 WARNING:Xst:2898 - Port 'm0_cti_i', unconnected in block instance 'conbus0', is tied to GND.
 WARNING:Xst:2898 - Port 'm1_cti_i', unconnected in block instance 'conbus0', is tied to GND.
+WARNING:Xst:2898 - Port 's6_dat_i', unconnected in block instance 'conbus0', is tied to GND.
+WARNING:Xst:2898 - Port 's6_ack_i', unconnected in block instance 'conbus0', is tied to GND.
 WARNING:Xst:2898 - Port 'arst_i', unconnected in block instance 'i2c0', is tied to GND.
-INFO:Xst:3210 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" line 176: Output port <s0_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" line 176: Output port <s1_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" line 176: Output port <s2_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" line 176: Output port <s3_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" line 176: Output port <s3_sel_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" line 176: Output port <s4_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" line 176: Output port <s5_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" line 176: Output port <s5_sel_o> of the instance <conbus0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" line 260: Output port <I_CTI_O> of the instance <lm0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" line 260: Output port <I_BTE_O> of the instance <lm0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" line 260: Output port <D_CTI_O> of the instance <lm0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" line 260: Output port <D_BTE_O> of the instance <lm0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" line 260: Output port <I_LOCK_O> of the instance <lm0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" line 260: Output port <D_LOCK_O> of the instance <lm0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" line 349: Output port <spi_cs> of the instance <spi0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/system.v" line 372: Output port <wb_inta_o> of the instance <i2c0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" line 199: Output port <s0_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" line 199: Output port <s1_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" line 199: Output port <s2_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" line 199: Output port <s3_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" line 199: Output port <s3_sel_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" line 199: Output port <s4_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" line 199: Output port <s5_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" line 199: Output port <s5_sel_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" line 199: Output port <s6_dat_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" line 199: Output port <s6_adr_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" line 199: Output port <s6_cti_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" line 199: Output port <s6_sel_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" line 199: Output port <s6_we_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" line 199: Output port <s6_cyc_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" line 199: Output port <s6_stb_o> of the instance <conbus0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" line 294: Output port <I_CTI_O> of the instance <lm0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" line 294: Output port <I_BTE_O> of the instance <lm0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" line 294: Output port <D_CTI_O> of the instance <lm0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" line 294: Output port <D_BTE_O> of the instance <lm0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" line 294: Output port <I_LOCK_O> of the instance <lm0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" line 294: Output port <D_LOCK_O> of the instance <lm0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/system.v" line 444: Output port <wb_inta_o> of the instance <i2c0> is unconnected or connected to loadless signal.
 WARNING:Xst:653 - Signal <lm32i_rty> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <lm32d_rty> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <lm32i_err> is used but never assigned. This sourceless signal will be automatically connected to value GND.
@@ -271,7 +289,7 @@ WARNING:Xst:653 - Signal <gpio0_intr> is used but never assigned. This sourceles
 Unit <system> synthesized.
 
 Synthesizing Unit <conbus>.
-    Related source file is "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_conbus/conbus.v".
+    Related source file is "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_conbus/conbus.v".
         s_addr_w = 3
         s0_addr = 3'b000
         s1_addr = 3'b010
@@ -279,12 +297,13 @@ Synthesizing Unit <conbus>.
         s3_addr = 3'b100
         s4_addr = 3'b101
         s5_addr = 3'b110
+        s6_addr = 3'b110
     Summary:
 	no macro.
 Unit <conbus> synthesized.
 
 Synthesizing Unit <conbus_arb>.
-    Related source file is "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_conbus/conbus_arb.v".
+    Related source file is "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_conbus/conbus_arb.v".
         grant0 = 7'b0000001
         grant1 = 7'b0000010
         grant2 = 7'b0000100
@@ -311,7 +330,7 @@ Synthesizing Unit <conbus_arb>.
 Unit <conbus_arb> synthesized.
 
 Synthesizing Unit <lm32_cpu>.
-    Related source file is "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_cpu.v".
+    Related source file is "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_cpu.v".
         eba_reset = 32'b00000000000000000000000000000000
         icache_associativity = 1
         icache_sets = 512
@@ -326,8 +345,8 @@ Synthesizing Unit <lm32_cpu>.
         watchpoints = 4'b0000
         breakpoints = 4'b0000
         interrupts = 32
-INFO:Xst:3210 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_cpu.v" line 436: Output port <pc_x> of the instance <instruction_unit> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_cpu.v" line 495: Output port <x_result_sel_logic> of the instance <decoder> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_cpu.v" line 436: Output port <pc_x> of the instance <instruction_unit> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_cpu.v" line 495: Output port <x_result_sel_logic> of the instance <decoder> is unconnected or connected to loadless signal.
     Found 32-bit register for signal <operand_0_x>.
     Found 32-bit register for signal <operand_1_x>.
     Found 32-bit register for signal <store_operand_x>.
@@ -405,7 +424,7 @@ INFO:Xst:3210 - "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_h
 Unit <lm32_cpu> synthesized.
 
 Synthesizing Unit <lm32_instruction_unit>.
-    Related source file is "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_instruction_unit.v".
+    Related source file is "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_instruction_unit.v".
         associativity = 1
         sets = 512
         bytes_per_line = 16
@@ -434,13 +453,13 @@ WARNING:Xst:647 - Input <i_rty_i> is never used. This port will be preserved and
 Unit <lm32_instruction_unit> synthesized.
 
 Synthesizing Unit <lm32_decoder>.
-    Related source file is "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_decoder.v".
+    Related source file is "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_decoder.v".
     Summary:
 	inferred  19 Multiplexer(s).
 Unit <lm32_decoder> synthesized.
 
 Synthesizing Unit <lm32_load_store_unit>.
-    Related source file is "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_load_store_unit.v".
+    Related source file is "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_load_store_unit.v".
         associativity = 1
         sets = 512
         bytes_per_line = 16
@@ -474,13 +493,13 @@ WARNING:Xst:647 - Input <d_rty_i> is never used. This port will be preserved and
 Unit <lm32_load_store_unit> synthesized.
 
 Synthesizing Unit <lm32_adder>.
-    Related source file is "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_adder.v".
+    Related source file is "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_adder.v".
     Summary:
 	no macro.
 Unit <lm32_adder> synthesized.
 
 Synthesizing Unit <lm32_addsub>.
-    Related source file is "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_addsub.v".
+    Related source file is "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_addsub.v".
     Found 33-bit subtractor for signal <GND_15_o_GND_15_o_sub_3_OUT> created at line 63.
     Found 33-bit subtractor for signal <tmp_subResult> created at line 63.
     Found 33-bit adder for signal <n0025> created at line 62.
@@ -491,7 +510,7 @@ Synthesizing Unit <lm32_addsub>.
 Unit <lm32_addsub> synthesized.
 
 Synthesizing Unit <lm32_logic_op>.
-    Related source file is "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_logic_op.v".
+    Related source file is "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_logic_op.v".
     Found 1-bit 4-to-1 multiplexer for signal <logic_result_x<0>> created at line 67.
     Found 1-bit 4-to-1 multiplexer for signal <logic_result_x<1>> created at line 67.
     Found 1-bit 4-to-1 multiplexer for signal <logic_result_x<2>> created at line 67.
@@ -529,7 +548,7 @@ Synthesizing Unit <lm32_logic_op>.
 Unit <lm32_logic_op> synthesized.
 
 Synthesizing Unit <lm32_multiplier>.
-    Related source file is "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_multiplier.v".
+    Related source file is "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_multiplier.v".
     Found 32-bit register for signal <multiplier>.
     Found 32-bit register for signal <product>.
     Found 32-bit register for signal <result>.
@@ -541,7 +560,7 @@ Synthesizing Unit <lm32_multiplier>.
 Unit <lm32_multiplier> synthesized.
 
 Synthesizing Unit <lm32_mc_arithmetic>.
-    Related source file is "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_mc_arithmetic.v".
+    Related source file is "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_mc_arithmetic.v".
     Found 32-bit register for signal <p>.
     Found 32-bit register for signal <a>.
     Found 32-bit register for signal <b>.
@@ -572,7 +591,7 @@ Synthesizing Unit <lm32_mc_arithmetic>.
 Unit <lm32_mc_arithmetic> synthesized.
 
 Synthesizing Unit <lm32_interrupt>.
-    Related source file is "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lm32/lm32_interrupt.v".
+    Related source file is "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lm32/lm32_interrupt.v".
         interrupts = 32
     Found 32-bit register for signal <im>.
     Found 32-bit register for signal <ip>.
@@ -585,7 +604,7 @@ Synthesizing Unit <lm32_interrupt>.
 Unit <lm32_interrupt> synthesized.
 
 Synthesizing Unit <wb_bram>.
-    Related source file is "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_bram/wb_bram.v".
+    Related source file is "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_bram/wb_bram.v".
         mem_file_name = "../firmware/hw-test/image.ram"
         adr_width = 12
 WARNING:Xst:647 - Input <wb_adr_i<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -601,7 +620,7 @@ WARNING:Xst:647 - Input <rst_i> is never used. This port will be preserved and l
 Unit <wb_bram> synthesized.
 
 Synthesizing Unit <wb_uart>.
-    Related source file is "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_uart/wb_uart.v".
+    Related source file is "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_uart/wb_uart.v".
         clk_freq = 100000000
         baud = 115200
 WARNING:Xst:647 - Input <wb_adr_i<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -619,37 +638,37 @@ WARNING:Xst:647 - Input <wb_dat_i<31:8>> is never used. This port will be preser
     Found 1-bit register for signal <tx_wr>.
     Found 1-bit register for signal <rx_ack>.
     Found 1-bit register for signal <ack>.
-    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<23><2:2>> (without init value) have a constant value of 0 in block <wb_uart>.
-    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<28><23:23>> (without init value) have a constant value of 0 in block <wb_uart>.
-    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<22><28:28>> (without init value) have a constant value of 0 in block <wb_uart>.
-    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<8><22:22>> (without init value) have a constant value of 0 in block <wb_uart>.
-    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<29><8:8>> (without init value) have a constant value of 0 in block <wb_uart>.
-    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<27><29:29>> (without init value) have a constant value of 0 in block <wb_uart>.
-    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<25><27:27>> (without init value) have a constant value of 0 in block <wb_uart>.
-    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<24><25:25>> (without init value) have a constant value of 0 in block <wb_uart>.
-    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<21><24:24>> (without init value) have a constant value of 0 in block <wb_uart>.
-    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<20><21:21>> (without init value) have a constant value of 0 in block <wb_uart>.
-    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<19><20:20>> (without init value) have a constant value of 0 in block <wb_uart>.
-    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<17><19:19>> (without init value) have a constant value of 0 in block <wb_uart>.
-    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<16><17:17>> (without init value) have a constant value of 0 in block <wb_uart>.
+    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<21><2:2>> (without init value) have a constant value of 0 in block <wb_uart>.
+    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<18><21:21>> (without init value) have a constant value of 0 in block <wb_uart>.
+    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<29><18:18>> (without init value) have a constant value of 0 in block <wb_uart>.
+    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<17><29:29>> (without init value) have a constant value of 0 in block <wb_uart>.
+    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<11><17:17>> (without init value) have a constant value of 0 in block <wb_uart>.
+    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<23><11:11>> (without init value) have a constant value of 0 in block <wb_uart>.
+    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<31><23:23>> (without init value) have a constant value of 0 in block <wb_uart>.
+    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<28><31:31>> (without init value) have a constant value of 0 in block <wb_uart>.
+    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<27><28:28>> (without init value) have a constant value of 0 in block <wb_uart>.
+    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<26><27:27>> (without init value) have a constant value of 0 in block <wb_uart>.
+    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<25><26:26>> (without init value) have a constant value of 0 in block <wb_uart>.
+    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<22><25:25>> (without init value) have a constant value of 0 in block <wb_uart>.
+    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<20><22:22>> (without init value) have a constant value of 0 in block <wb_uart>.
+    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<16><20:20>> (without init value) have a constant value of 0 in block <wb_uart>.
     WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<15><16:16>> (without init value) have a constant value of 0 in block <wb_uart>.
-    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<13><15:15>> (without init value) have a constant value of 0 in block <wb_uart>.
-    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<11><13:13>> (without init value) have a constant value of 0 in block <wb_uart>.
-    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<10><11:11>> (without init value) have a constant value of 0 in block <wb_uart>.
+    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<14><15:15>> (without init value) have a constant value of 0 in block <wb_uart>.
+    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<13><14:14>> (without init value) have a constant value of 0 in block <wb_uart>.
+    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<12><13:13>> (without init value) have a constant value of 0 in block <wb_uart>.
+    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<10><12:12>> (without init value) have a constant value of 0 in block <wb_uart>.
     WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<9><10:10>> (without init value) have a constant value of 0 in block <wb_uart>.
     WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<30><9:9>> (without init value) have a constant value of 0 in block <wb_uart>.
-    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<31><30:30>> (without init value) have a constant value of 0 in block <wb_uart>.
-    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<26><31:31>> (without init value) have a constant value of 0 in block <wb_uart>.
-    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<18><26:26>> (without init value) have a constant value of 0 in block <wb_uart>.
-    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<14><18:18>> (without init value) have a constant value of 0 in block <wb_uart>.
-    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<12><14:14>> (without init value) have a constant value of 0 in block <wb_uart>.
+    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<24><30:30>> (without init value) have a constant value of 0 in block <wb_uart>.
+    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<19><24:24>> (without init value) have a constant value of 0 in block <wb_uart>.
+    WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<8><19:19>> (without init value) have a constant value of 0 in block <wb_uart>.
     Summary:
 	inferred  11 D-type flip-flop(s).
 	inferred   1 Multiplexer(s).
 Unit <wb_uart> synthesized.
 
 Synthesizing Unit <uart>.
-    Related source file is "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/lac/uart.v".
+    Related source file is "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/lac/uart.v".
         freq_hz = 100000000
         baud = 115200
     Found 1-bit register for signal <uart_rxd1>.
@@ -679,7 +698,7 @@ Synthesizing Unit <uart>.
 Unit <uart> synthesized.
 
 Synthesizing Unit <wb_spi>.
-    Related source file is "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_spi/wb_spi.v".
+    Related source file is "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_spi/wb_spi.v".
 WARNING:Xst:647 - Input <wb_adr_i<1:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <wb_adr_i<31:6>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <wb_dat_i<31:8>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -689,28 +708,48 @@ WARNING:Xst:647 - Input <wb_sel_i> is never used. This port will be preserved an
     Found 1-bit register for signal <run>.
     Found 8-bit register for signal <prescaler>.
     Found 8-bit register for signal <divisor>.
+    Found 7-bit register for signal <x_pos>.
+    Found 3-bit register for signal <y_pos>.
+    Found 1-bit register for signal <dc>.
+    Found 8-bit register for signal <spi_cs>.
+    Found 1-bit register for signal <hmode>.
     Found 8-bit register for signal <sreg>.
     Found 1-bit register for signal <ilatch>.
+    Found 8-bit register for signal <state>.
     Found 32-bit register for signal <wb_dat_o>.
-    Found 8-bit register for signal <spi_cs>.
     Found 1-bit register for signal <ack>.
-    Found 8-bit adder for signal <prescaler[7]_GND_24_o_add_2_OUT> created at line 57.
-    Found 3-bit adder for signal <bitcount[2]_GND_24_o_add_6_OUT> created at line 63.
-    Found 8-bit comparator equal for signal <prescaler[7]_divisor[7]_equal_4_o> created at line 58
+    Found 8-bit adder for signal <prescaler[7]_GND_24_o_add_2_OUT> created at line 115.
+    Found 3-bit adder for signal <bitcount[2]_GND_24_o_add_6_OUT> created at line 121.
+    Found 7-bit adder for signal <x_pos[6]_GND_24_o_add_9_OUT> created at line 123.
+    Found 3-bit adder for signal <y_pos[2]_GND_24_o_add_13_OUT> created at line 130.
+    Found 8-bit comparator equal for signal <prescaler[7]_divisor[7]_equal_4_o> created at line 116
     Summary:
-	inferred   2 Adder/Subtractor(s).
-	inferred  71 D-type flip-flop(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred  91 D-type flip-flop(s).
 	inferred   1 Comparator(s).
-	inferred   2 Multiplexer(s).
+	inferred  28 Multiplexer(s).
 Unit <wb_spi> synthesized.
 
+Synthesizing Unit <first_reset>.
+    Related source file is "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_spi/first_reset.v".
+    Found 8-bit register for signal <counter>.
+    Found 1-bit register for signal <rst>.
+    Found 1-bit register for signal <done>.
+    Found 1-bit register for signal <init_sgn>.
+    Found 8-bit adder for signal <counter[7]_GND_25_o_add_11_OUT> created at line 53.
+    WARNING:Xst:2404 -  FFs/Latches <aux1<0:0>> (without init value) have a constant value of 1 in block <first_reset>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  11 D-type flip-flop(s).
+Unit <first_reset> synthesized.
+
 Synthesizing Unit <i2c_master_wb_top>.
-    Related source file is "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_i2c/i2c_master_wb_top.v".
+    Related source file is "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_i2c/i2c_master_wb_top.v".
         ARST_LVL = 1'b0
     Found 8-bit register for signal <wb_dat_o>.
     Found 1-bit register for signal <wb_inta_o>.
     Found 1-bit register for signal <wb_ack_o>.
-    Found 8-bit 8-to-1 multiplexer for signal <wb_adr_i[2]_GND_25_o_wide_mux_2_OUT> created at line 203.
+    Found 8-bit 8-to-1 multiplexer for signal <wb_adr_i[2]_GND_26_o_wide_mux_2_OUT> created at line 203.
     Found 1-bit tristate buffer for signal <scl> created at line 300
     Found 1-bit tristate buffer for signal <sda> created at line 301
     Summary:
@@ -720,7 +759,7 @@ Synthesizing Unit <i2c_master_wb_top>.
 Unit <i2c_master_wb_top> synthesized.
 
 Synthesizing Unit <i2c_master_byte_ctrl>.
-    Related source file is "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_i2c/i2c_master_byte_ctrl.v".
+    Related source file is "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_i2c/i2c_master_byte_ctrl.v".
         ST_IDLE = 5'b00000
         ST_START = 5'b00001
         ST_READ = 5'b00010
@@ -750,7 +789,7 @@ WARNING:Xst:647 - Input <clk_cnt> is never used. This port will be preserved and
     | Encoding           | auto                                           |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
-    Found 3-bit subtractor for signal <dcnt[2]_GND_26_o_sub_6_OUT> created at line 219.
+    Found 3-bit subtractor for signal <dcnt[2]_GND_27_o_sub_6_OUT> created at line 219.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  20 D-type flip-flop(s).
@@ -759,7 +798,7 @@ WARNING:Xst:647 - Input <clk_cnt> is never used. This port will be preserved and
 Unit <i2c_master_byte_ctrl> synthesized.
 
 Synthesizing Unit <i2c_master_bit_ctrl>.
-    Related source file is "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_i2c/i2c_master_bit_ctrl.v".
+    Related source file is "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_i2c/i2c_master_bit_ctrl.v".
         idle = 17'b00000000000000000
         start_a = 17'b00000000000000001
         start_b = 17'b00000000000000010
@@ -809,7 +848,7 @@ Synthesizing Unit <i2c_master_bit_ctrl>.
     | Encoding           | auto                                           |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
-    Found 16-bit subtractor for signal <cnt[15]_GND_27_o_sub_3_OUT> created at line 239.
+    Found 16-bit subtractor for signal <cnt[15]_GND_28_o_sub_3_OUT> created at line 239.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  32 D-type flip-flop(s).
@@ -818,7 +857,7 @@ Synthesizing Unit <i2c_master_bit_ctrl>.
 Unit <i2c_master_bit_ctrl> synthesized.
 
 Synthesizing Unit <i2c_master_registers>.
-    Related source file is "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_i2c/i2c_master_registers.v".
+    Related source file is "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_i2c/i2c_master_registers.v".
     Found 16-bit register for signal <prer>.
     Found 8-bit register for signal <ctr>.
     Found 8-bit register for signal <txr>.
@@ -840,7 +879,7 @@ Synthesizing Unit <i2c_master_registers>.
 Unit <i2c_master_registers> synthesized.
 
 Synthesizing Unit <wb_timer>.
-    Related source file is "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_timer/wb_timer.v".
+    Related source file is "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_timer/wb_timer.v".
         clk_freq = 100000000
 WARNING:Xst:647 - Input <wb_adr_i<31:8>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <wb_sel_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -858,8 +897,8 @@ WARNING:Xst:647 - Input <wb_sel_i> is never used. This port will be preserved an
     Found 1-bit register for signal <irqen0>.
     Found 1-bit register for signal <irqen1>.
     Found 1-bit register for signal <ack>.
-    Found 32-bit adder for signal <counter0[31]_GND_57_o_add_6_OUT> created at line 92.
-    Found 32-bit adder for signal <counter1[31]_GND_57_o_add_9_OUT> created at line 98.
+    Found 32-bit adder for signal <counter0[31]_GND_58_o_add_6_OUT> created at line 92.
+    Found 32-bit adder for signal <counter1[31]_GND_58_o_add_9_OUT> created at line 98.
     Found 32-bit 7-to-1 multiplexer for signal <_n0180> created at line 109.
     Found 32-bit comparator equal for signal <match0> created at line 64
     Found 32-bit comparator equal for signal <match1> created at line 65
@@ -871,7 +910,7 @@ WARNING:Xst:647 - Input <wb_sel_i> is never used. This port will be preserved an
 Unit <wb_timer> synthesized.
 
 Synthesizing Unit <wb_gpio>.
-    Related source file is "/home/ferney/FERNEY/NACHO/Digital2/laboratorios/lm32/lm32_soc_hdl/rtl/wb_gpio/wb_gpio.v".
+    Related source file is "/home/marco/main_data/vaioHome/Desktop/digital_2/lm32_soc_HDL/rtl/wb_gpio/wb_gpio.v".
         gpio_io_width = 8
         gpio_dir_reset_val = 0
         gpio_o_reset_val = 0
@@ -906,9 +945,9 @@ Macro Statistics
  32x32-bit dual-port RAM                               : 2
 # Multipliers                                          : 1
  32x32-bit multiplier                                  : 1
-# Adders/Subtractors                                   : 19
+# Adders/Subtractors                                   : 22
  16-bit subtractor                                     : 2
- 3-bit adder                                           : 1
+ 3-bit adder                                           : 2
  3-bit subtractor                                      : 1
  30-bit adder                                          : 2
  32-bit adder                                          : 2
@@ -916,39 +955,42 @@ Macro Statistics
  33-bit subtractor                                     : 3
  4-bit adder                                           : 4
  6-bit subtractor                                      : 1
- 8-bit adder                                           : 1
-# Registers                                            : 194
- 1-bit register                                        : 120
+ 7-bit adder                                           : 1
+ 8-bit adder                                           : 2
+# Registers                                            : 203
+ 1-bit register                                        : 125
  16-bit register                                       : 3
  2-bit register                                        : 3
  24-bit register                                       : 1
- 3-bit register                                        : 4
+ 3-bit register                                        : 5
  30-bit register                                       : 7
  32-bit register                                       : 31
  4-bit register                                        : 8
  5-bit register                                        : 3
  6-bit register                                        : 1
- 8-bit register                                        : 13
+ 7-bit register                                        : 1
+ 8-bit register                                        : 15
 # Comparators                                          : 11
  1-bit comparator equal                                : 1
  32-bit comparator equal                               : 3
  5-bit comparator equal                                : 6
  8-bit comparator equal                                : 1
-# Multiplexers                                         : 209
- 1-bit 2-to-1 multiplexer                              : 92
+# Multiplexers                                         : 235
+ 1-bit 2-to-1 multiplexer                              : 94
  1-bit 4-to-1 multiplexer                              : 32
  1-bit 8-to-1 multiplexer                              : 1
  16-bit 2-to-1 multiplexer                             : 5
  2-bit 2-to-1 multiplexer                              : 1
- 3-bit 2-to-1 multiplexer                              : 4
+ 3-bit 2-to-1 multiplexer                              : 10
  30-bit 2-to-1 multiplexer                             : 3
- 32-bit 2-to-1 multiplexer                             : 46
+ 32-bit 2-to-1 multiplexer                             : 50
  32-bit 3-to-1 multiplexer                             : 3
  32-bit 7-to-1 multiplexer                             : 1
  4-bit 2-to-1 multiplexer                              : 9
  5-bit 2-to-1 multiplexer                              : 3
  6-bit 2-to-1 multiplexer                              : 1
- 8-bit 2-to-1 multiplexer                              : 7
+ 7-bit 2-to-1 multiplexer                              : 12
+ 8-bit 2-to-1 multiplexer                              : 9
  8-bit 8-to-1 multiplexer                              : 1
 # Tristates                                            : 10
  1-bit tristate buffer                                 : 10
@@ -961,33 +1003,11 @@ Macro Statistics
 =========================================================================
 
 INFO:Xst:2261 - The FF/Latch <i_cyc_o> in Unit <instruction_unit> is equivalent to the following FF/Latch, which will be removed : <i_stb_o> 
+INFO:Xst:2261 - The FF/Latch <state_1> in Unit <spi0> is equivalent to the following 6 FFs/Latches, which will be removed : <state_2> <state_3> <state_4> <state_5> <state_6> <state_7> 
 INFO:Xst:2261 - The FF/Latch <wb_dat_o_8> in Unit <gpio0> is equivalent to the following 23 FFs/Latches, which will be removed : <wb_dat_o_9> <wb_dat_o_10> <wb_dat_o_11> <wb_dat_o_12> <wb_dat_o_13> <wb_dat_o_14> <wb_dat_o_15> <wb_dat_o_16> <wb_dat_o_17> <wb_dat_o_18> <wb_dat_o_19> <wb_dat_o_20> <wb_dat_o_21> <wb_dat_o_22> <wb_dat_o_23> <wb_dat_o_24> <wb_dat_o_25> <wb_dat_o_26> <wb_dat_o_27> <wb_dat_o_28> <wb_dat_o_29> <wb_dat_o_30> <wb_dat_o_31> 
-WARNING:Xst:1710 - FF/Latch <wb_dat_o_8> (without init value) has a constant value of 0 in block <gpio0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wb_dat_o_31> (without init value) has a constant value of 0 in block <spi0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wb_dat_o_30> (without init value) has a constant value of 0 in block <spi0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wb_dat_o_29> (without init value) has a constant value of 0 in block <spi0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wb_dat_o_28> (without init value) has a constant value of 0 in block <spi0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wb_dat_o_27> (without init value) has a constant value of 0 in block <spi0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wb_dat_o_26> (without init value) has a constant value of 0 in block <spi0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wb_dat_o_25> (without init value) has a constant value of 0 in block <spi0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wb_dat_o_24> (without init value) has a constant value of 0 in block <spi0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wb_dat_o_23> (without init value) has a constant value of 0 in block <spi0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wb_dat_o_22> (without init value) has a constant value of 0 in block <spi0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wb_dat_o_21> (without init value) has a constant value of 0 in block <spi0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wb_dat_o_20> (without init value) has a constant value of 0 in block <spi0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wb_dat_o_19> (without init value) has a constant value of 0 in block <spi0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wb_dat_o_18> (without init value) has a constant value of 0 in block <spi0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wb_dat_o_17> (without init value) has a constant value of 0 in block <spi0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wb_dat_o_16> (without init value) has a constant value of 0 in block <spi0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wb_dat_o_15> (without init value) has a constant value of 0 in block <spi0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wb_dat_o_14> (without init value) has a constant value of 0 in block <spi0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wb_dat_o_13> (without init value) has a constant value of 0 in block <spi0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wb_dat_o_12> (without init value) has a constant value of 0 in block <spi0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wb_dat_o_11> (without init value) has a constant value of 0 in block <spi0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wb_dat_o_10> (without init value) has a constant value of 0 in block <spi0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wb_dat_o_9> (without init value) has a constant value of 0 in block <spi0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <wb_dat_o_8> (without init value) has a constant value of 0 in block <spi0>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <bus_error_x> (without init value) has a constant value of 0 in block <lm0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <state_1> (without init value) has a constant value of 0 in block <spi0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <wb_dat_o_8> (without init value) has a constant value of 0 in block <gpio0>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:2677 - Node <i_adr_o_12> of sequential type is unconnected in block <instruction_unit>.
 WARNING:Xst:2677 - Node <i_adr_o_13> of sequential type is unconnected in block <instruction_unit>.
 WARNING:Xst:2677 - Node <i_adr_o_14> of sequential type is unconnected in block <instruction_unit>.
@@ -1022,7 +1042,19 @@ WARNING:Xst:2677 - Node <d_adr_o_25> of sequential type is unconnected in block 
 WARNING:Xst:2677 - Node <d_adr_o_26> of sequential type is unconnected in block <load_store_unit>.
 WARNING:Xst:2677 - Node <d_adr_o_27> of sequential type is unconnected in block <load_store_unit>.
 WARNING:Xst:2677 - Node <d_adr_o_31> of sequential type is unconnected in block <load_store_unit>.
+WARNING:Xst:2677 - Node <spi_cs_1> of sequential type is unconnected in block <spi0>.
+WARNING:Xst:2677 - Node <spi_cs_2> of sequential type is unconnected in block <spi0>.
+WARNING:Xst:2677 - Node <spi_cs_3> of sequential type is unconnected in block <spi0>.
+WARNING:Xst:2677 - Node <spi_cs_4> of sequential type is unconnected in block <spi0>.
+WARNING:Xst:2677 - Node <spi_cs_5> of sequential type is unconnected in block <spi0>.
+WARNING:Xst:2677 - Node <spi_cs_6> of sequential type is unconnected in block <spi0>.
+WARNING:Xst:2677 - Node <spi_cs_7> of sequential type is unconnected in block <spi0>.
+WARNING:Xst:2404 -  FFs/Latches <state<7:1>> (without init value) have a constant value of 0 in block <wb_spi>.
 WARNING:Xst:2404 -  FFs/Latches <wb_dat_o<31:8>> (without init value) have a constant value of 0 in block <wb_gpio>.
+
+Synthesizing (advanced) Unit <first_reset>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <first_reset> synthesized (advanced).
 
 Synthesizing (advanced) Unit <lm32_cpu>.
 INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_registers> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
@@ -1094,6 +1126,13 @@ Synthesizing (advanced) Unit <wb_spi>.
 The following registers are absorbed into counter <prescaler>: 1 register on signal <prescaler>.
 The following registers are absorbed into counter <bitcount>: 1 register on signal <bitcount>.
 Unit <wb_spi> synthesized (advanced).
+WARNING:Xst:2677 - Node <spi_cs_1> of sequential type is unconnected in block <wb_spi>.
+WARNING:Xst:2677 - Node <spi_cs_2> of sequential type is unconnected in block <wb_spi>.
+WARNING:Xst:2677 - Node <spi_cs_3> of sequential type is unconnected in block <wb_spi>.
+WARNING:Xst:2677 - Node <spi_cs_4> of sequential type is unconnected in block <wb_spi>.
+WARNING:Xst:2677 - Node <spi_cs_5> of sequential type is unconnected in block <wb_spi>.
+WARNING:Xst:2677 - Node <spi_cs_6> of sequential type is unconnected in block <wb_spi>.
+WARNING:Xst:2677 - Node <spi_cs_7> of sequential type is unconnected in block <wb_spi>.
 
 =========================================================================
 Advanced HDL Synthesis Report
@@ -1104,41 +1143,44 @@ Macro Statistics
  32x32-bit dual-port distributed RAM                   : 2
 # Multipliers                                          : 1
  32x32-bit multiplier                                  : 1
-# Adders/Subtractors                                   : 9
+# Adders/Subtractors                                   : 11
  16-bit subtractor                                     : 1
+ 3-bit adder                                           : 1
  3-bit subtractor                                      : 1
  30-bit adder                                          : 2
  32-bit adder                                          : 2
  33-bit adder carry in                                 : 1
  33-bit subtractor                                     : 1
  33-bit subtractor borrow in                           : 1
-# Counters                                             : 8
+ 7-bit adder                                           : 1
+# Counters                                             : 9
  16-bit down counter                                   : 1
  3-bit up counter                                      : 1
  4-bit up counter                                      : 4
  6-bit down counter                                    : 1
- 8-bit up counter                                      : 1
-# Registers                                            : 1464
- Flip-Flops                                            : 1464
+ 8-bit up counter                                      : 2
+# Registers                                            : 1473
+ Flip-Flops                                            : 1473
 # Comparators                                          : 11
  1-bit comparator equal                                : 1
  32-bit comparator equal                               : 3
  5-bit comparator equal                                : 6
  8-bit comparator equal                                : 1
-# Multiplexers                                         : 320
- 1-bit 2-to-1 multiplexer                              : 211
+# Multiplexers                                         : 346
+ 1-bit 2-to-1 multiplexer                              : 213
  1-bit 4-to-1 multiplexer                              : 32
  1-bit 8-to-1 multiplexer                              : 1
  16-bit 2-to-1 multiplexer                             : 4
  2-bit 2-to-1 multiplexer                              : 1
- 3-bit 2-to-1 multiplexer                              : 4
+ 3-bit 2-to-1 multiplexer                              : 10
  30-bit 2-to-1 multiplexer                             : 3
- 32-bit 2-to-1 multiplexer                             : 43
+ 32-bit 2-to-1 multiplexer                             : 47
  32-bit 3-to-1 multiplexer                             : 3
  32-bit 7-to-1 multiplexer                             : 1
  4-bit 2-to-1 multiplexer                              : 9
  5-bit 2-to-1 multiplexer                              : 3
- 8-bit 2-to-1 multiplexer                              : 4
+ 7-bit 2-to-1 multiplexer                              : 12
+ 8-bit 2-to-1 multiplexer                              : 6
  8-bit 8-to-1 multiplexer                              : 1
 # FSMs                                                 : 4
 
@@ -1147,30 +1189,6 @@ Macro Statistics
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
-WARNING:Xst:1710 - FF/Latch <wb_dat_o_31> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_30> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_29> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_28> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_27> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_26> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_25> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_24> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_23> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_22> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_21> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_20> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_19> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_18> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_17> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_16> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_15> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_14> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_13> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_12> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_11> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_10> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_9> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_8> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
 INFO:Xst:2261 - The FF/Latch <i_cyc_o> in Unit <lm32_instruction_unit> is equivalent to the following FF/Latch, which will be removed : <i_stb_o> 
 Analyzing FSM <MFsm> for best encoding.
 Optimizing FSM <conbus0/FSM_0> on signal <state[1:3]> with gray encoding.
@@ -1235,6 +1253,31 @@ WARNING:Xst:1710 - FF/Latch <conbus_arb/state_FSM_FFd1> (without init value) has
 WARNING:Xst:1710 - FF/Latch <conbus_arb/state_FSM_FFd2> (without init value) has a constant value of 0 in block <conbus>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <i_adr_o_0> (without init value) has a constant value of 0 in block <lm32_instruction_unit>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <i_adr_o_1> (without init value) has a constant value of 0 in block <lm32_instruction_unit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <wb_dat_o_31> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_30> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_29> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_28> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_27> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_26> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_25> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_24> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_23> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_22> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_21> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_20> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_19> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_18> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_17> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_16> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_15> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_14> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_13> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_12> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_11> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_10> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_9> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <wb_dat_o_8> (without init value) has a constant value of 0 in block <wb_spi>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2042 - Unit i2c_master_wb_top: 2 internal tristates are replaced by logic (pull-up yes): scl, sda.
 WARNING:Xst:2042 - Unit wb_gpio: 8 internal tristates are replaced by logic (pull-up yes): gpio_io<0>, gpio_io<1>, gpio_io<2>, gpio_io<3>, gpio_io<4>, gpio_io<5>, gpio_io<6>, gpio_io<7>.
 
 Optimizing unit <system> ...
@@ -1322,6 +1365,10 @@ Optimizing unit <uart> ...
 
 Optimizing unit <wb_spi> ...
 
+Optimizing unit <first_reset> ...
+
+Optimizing unit <i2c_master_wb_top> ...
+
 Optimizing unit <i2c_master_registers> ...
 
 Optimizing unit <i2c_master_byte_ctrl> ...
@@ -1404,14 +1451,6 @@ WARNING:Xst:2677 - Node <lm0/load_store_unit/d_adr_o_15> of sequential type is u
 WARNING:Xst:2677 - Node <lm0/load_store_unit/d_adr_o_14> of sequential type is unconnected in block <system>.
 WARNING:Xst:2677 - Node <lm0/load_store_unit/d_adr_o_13> of sequential type is unconnected in block <system>.
 WARNING:Xst:2677 - Node <lm0/load_store_unit/d_adr_o_12> of sequential type is unconnected in block <system>.
-WARNING:Xst:2677 - Node <spi0/spi_cs_7> of sequential type is unconnected in block <system>.
-WARNING:Xst:2677 - Node <spi0/spi_cs_6> of sequential type is unconnected in block <system>.
-WARNING:Xst:2677 - Node <spi0/spi_cs_5> of sequential type is unconnected in block <system>.
-WARNING:Xst:2677 - Node <spi0/spi_cs_4> of sequential type is unconnected in block <system>.
-WARNING:Xst:2677 - Node <spi0/spi_cs_3> of sequential type is unconnected in block <system>.
-WARNING:Xst:2677 - Node <spi0/spi_cs_2> of sequential type is unconnected in block <system>.
-WARNING:Xst:2677 - Node <spi0/spi_cs_1> of sequential type is unconnected in block <system>.
-WARNING:Xst:2677 - Node <spi0/spi_cs_0> of sequential type is unconnected in block <system>.
 WARNING:Xst:1710 - FF/Latch <uart0/uart0/enable16_counter_14> (without init value) has a constant value of 0 in block <system>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <uart0/uart0/enable16_counter_13> (without init value) has a constant value of 0 in block <system>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <uart0/uart0/enable16_counter_15> (without init value) has a constant value of 0 in block <system>. This FF/Latch will be trimmed during the optimization process.
@@ -1490,23 +1529,24 @@ INFO:Xst:2261 - The FF/Latch <lm0/multiplier/multiplier_26> in Unit <system> is 
 INFO:Xst:2261 - The FF/Latch <lm0/multiplier/multiplier_27> in Unit <system> is equivalent to the following FF/Latch, which will be removed : <lm0/operand_1_x_27> 
 INFO:Xst:2261 - The FF/Latch <lm0/multiplier/multiplier_28> in Unit <system> is equivalent to the following FF/Latch, which will be removed : <lm0/operand_1_x_28> 
 INFO:Xst:2261 - The FF/Latch <lm0/multiplier/multiplier_29> in Unit <system> is equivalent to the following FF/Latch, which will be removed : <lm0/operand_1_x_29> 
+INFO:Xst:3203 - The FF/Latch <spi0/first_rst0/done> in Unit <system> is the opposite to the following FF/Latch, which will be removed : <spi0/first_rst0/aux2> 
 
 Mapping all equations...
 Building and optimizing final netlist ...
 Found area constraint ratio of 100 (+ 0) on block system, actual ratio is 4.
 Forward register balancing over carry chain lm0/Mcompar_cmp_zero_cy<0>
 INFO:Xst:2261 - The FF/Latch <lm0/load_store_unit/size_m_1> in Unit <system> is equivalent to the following 16 FFs/Latches, which will be removed : <lm0/load_store_unit/store_data_m_15_BRB0> <lm0/load_store_unit/store_data_m_14_BRB0> <lm0/load_store_unit/store_data_m_13_BRB0> <lm0/load_store_unit/store_data_m_12_BRB0> <lm0/load_store_unit/store_data_m_11_BRB0> <lm0/load_store_unit/store_data_m_10_BRB0> <lm0/load_store_unit/store_data_m_9_BRB0> <lm0/load_store_unit/store_data_m_8_BRB0> <lm0/load_store_unit/store_data_m_31_BRB0> <lm0/load_store_unit/store_data_m_30_BRB0> <lm0/load_store_unit/store_data_m_29_BRB0> <lm0/load_store_unit/store_data_m_28_BRB0> <lm0/load_store_unit/store_data_m_27_BRB0> <lm0/load_store_unit/store_data_m_26_BRB0> <lm0/load_store_unit/store_data_m_25_BRB0> <lm0/load_store_unit/store_data_m_24_BRB0> 
+INFO:Xst:2261 - The FF/Latch <lm0/load_m> in Unit <system> is equivalent to the following FF/Latch, which will be removed : <lm0/w_result_sel_load_m_BRB0> 
 INFO:Xst:2261 - The FF/Latch <lm0/m_result_sel_compare_x> in Unit <system> is equivalent to the following FF/Latch, which will be removed : <lm0/m_bypass_enable_x_BRB1> 
 INFO:Xst:2261 - The FF/Latch <lm0/x_bypass_enable_x> in Unit <system> is equivalent to the following FF/Latch, which will be removed : <lm0/m_bypass_enable_x_BRB0> 
-INFO:Xst:2261 - The FF/Latch <lm0/load_store_unit/store_data_m_0> in Unit <system> is equivalent to the following 3 FFs/Latches, which will be removed : <lm0/load_store_unit/store_data_m_8_BRB1> <lm0/load_store_unit/store_data_m_16_BRB0> <lm0/load_store_unit/store_data_m_24_BRB4> 
-INFO:Xst:2261 - The FF/Latch <lm0/load_store_unit/store_data_m_1> in Unit <system> is equivalent to the following 3 FFs/Latches, which will be removed : <lm0/load_store_unit/store_data_m_9_BRB1> <lm0/load_store_unit/store_data_m_17_BRB0> <lm0/load_store_unit/store_data_m_25_BRB4> 
-INFO:Xst:2261 - The FF/Latch <lm0/load_store_unit/store_data_m_2> in Unit <system> is equivalent to the following 3 FFs/Latches, which will be removed : <lm0/load_store_unit/store_data_m_10_BRB1> <lm0/load_store_unit/store_data_m_18_BRB0> <lm0/load_store_unit/store_data_m_26_BRB4> 
-INFO:Xst:2261 - The FF/Latch <lm0/load_store_unit/store_data_m_3> in Unit <system> is equivalent to the following 3 FFs/Latches, which will be removed : <lm0/load_store_unit/store_data_m_11_BRB1> <lm0/load_store_unit/store_data_m_19_BRB0> <lm0/load_store_unit/store_data_m_27_BRB4> 
-INFO:Xst:2261 - The FF/Latch <lm0/load_store_unit/store_data_m_4> in Unit <system> is equivalent to the following 3 FFs/Latches, which will be removed : <lm0/load_store_unit/store_data_m_12_BRB1> <lm0/load_store_unit/store_data_m_20_BRB0> <lm0/load_store_unit/store_data_m_28_BRB4> 
-INFO:Xst:2261 - The FF/Latch <lm0/load_store_unit/store_data_m_5> in Unit <system> is equivalent to the following 3 FFs/Latches, which will be removed : <lm0/load_store_unit/store_data_m_13_BRB1> <lm0/load_store_unit/store_data_m_21_BRB0> <lm0/load_store_unit/store_data_m_29_BRB4> 
-INFO:Xst:2261 - The FF/Latch <lm0/load_store_unit/store_data_m_6> in Unit <system> is equivalent to the following 3 FFs/Latches, which will be removed : <lm0/load_store_unit/store_data_m_14_BRB1> <lm0/load_store_unit/store_data_m_22_BRB0> <lm0/load_store_unit/store_data_m_30_BRB4> 
-INFO:Xst:2261 - The FF/Latch <lm0/load_store_unit/store_data_m_7> in Unit <system> is equivalent to the following 3 FFs/Latches, which will be removed : <lm0/load_store_unit/store_data_m_15_BRB1> <lm0/load_store_unit/store_data_m_23_BRB0> <lm0/load_store_unit/store_data_m_31_BRB4> 
-INFO:Xst:2261 - The FF/Latch <lm0/load_m> in Unit <system> is equivalent to the following FF/Latch, which will be removed : <lm0/w_result_sel_load_m_BRB0> 
+INFO:Xst:2261 - The FF/Latch <lm0/load_store_unit/store_data_m_0> in Unit <system> is equivalent to the following 3 FFs/Latches, which will be removed : <lm0/load_store_unit/store_data_m_8_BRB2> <lm0/load_store_unit/store_data_m_16_BRB0> <lm0/load_store_unit/store_data_m_24_BRB4> 
+INFO:Xst:2261 - The FF/Latch <lm0/load_store_unit/store_data_m_1> in Unit <system> is equivalent to the following 3 FFs/Latches, which will be removed : <lm0/load_store_unit/store_data_m_9_BRB2> <lm0/load_store_unit/store_data_m_17_BRB0> <lm0/load_store_unit/store_data_m_25_BRB4> 
+INFO:Xst:2261 - The FF/Latch <lm0/load_store_unit/store_data_m_2> in Unit <system> is equivalent to the following 3 FFs/Latches, which will be removed : <lm0/load_store_unit/store_data_m_10_BRB2> <lm0/load_store_unit/store_data_m_18_BRB0> <lm0/load_store_unit/store_data_m_26_BRB4> 
+INFO:Xst:2261 - The FF/Latch <lm0/load_store_unit/store_data_m_3> in Unit <system> is equivalent to the following 3 FFs/Latches, which will be removed : <lm0/load_store_unit/store_data_m_11_BRB2> <lm0/load_store_unit/store_data_m_19_BRB0> <lm0/load_store_unit/store_data_m_27_BRB4> 
+INFO:Xst:2261 - The FF/Latch <lm0/load_store_unit/store_data_m_4> in Unit <system> is equivalent to the following 3 FFs/Latches, which will be removed : <lm0/load_store_unit/store_data_m_12_BRB2> <lm0/load_store_unit/store_data_m_20_BRB0> <lm0/load_store_unit/store_data_m_28_BRB4> 
+INFO:Xst:2261 - The FF/Latch <lm0/load_store_unit/store_data_m_5> in Unit <system> is equivalent to the following 3 FFs/Latches, which will be removed : <lm0/load_store_unit/store_data_m_13_BRB2> <lm0/load_store_unit/store_data_m_21_BRB0> <lm0/load_store_unit/store_data_m_29_BRB4> 
+INFO:Xst:2261 - The FF/Latch <lm0/load_store_unit/store_data_m_6> in Unit <system> is equivalent to the following 3 FFs/Latches, which will be removed : <lm0/load_store_unit/store_data_m_14_BRB2> <lm0/load_store_unit/store_data_m_22_BRB0> <lm0/load_store_unit/store_data_m_30_BRB4> 
+INFO:Xst:2261 - The FF/Latch <lm0/load_store_unit/store_data_m_7> in Unit <system> is equivalent to the following 3 FFs/Latches, which will be removed : <lm0/load_store_unit/store_data_m_15_BRB2> <lm0/load_store_unit/store_data_m_23_BRB0> <lm0/load_store_unit/store_data_m_31_BRB4> 
 INFO:Xst:2261 - The FF/Latch <lm0/size_x_1> in Unit <system> is equivalent to the following FF/Latch, which will be removed : <lm0/w_result_sel_mul_x_BRB0> 
 
 Pipelining and Register Balancing Report ...
@@ -1514,12 +1554,12 @@ Pipelining and Register Balancing Report ...
 Processing Unit <system> :
 	Register(s) lm0/operand_w_1 lm0/operand_w_0 lm0/load_store_unit/data_w_15 lm0/load_store_unit/data_w_7 lm0/load_store_unit/data_w_23 lm0/load_store_unit/data_w_31 has(ve) been forward balanced into : lm0/load_store_unit/load_data_w<10>41_FRB.
 	Register(s) lm0/branch_x has(ve) been backward balanced into : lm0/branch_x_BRB0 lm0/branch_x_BRB1 lm0/branch_x_BRB2 lm0/branch_x_BRB3 lm0/branch_x_BRB4 lm0/branch_x_BRB5.
-	Register(s) lm0/load_store_unit/store_data_m_10 has(ve) been backward balanced into : lm0/load_store_unit/store_data_m_10_BRB2.
-	Register(s) lm0/load_store_unit/store_data_m_11 has(ve) been backward balanced into : lm0/load_store_unit/store_data_m_11_BRB2.
-	Register(s) lm0/load_store_unit/store_data_m_12 has(ve) been backward balanced into : lm0/load_store_unit/store_data_m_12_BRB2.
-	Register(s) lm0/load_store_unit/store_data_m_13 has(ve) been backward balanced into : lm0/load_store_unit/store_data_m_13_BRB2.
-	Register(s) lm0/load_store_unit/store_data_m_14 has(ve) been backward balanced into : lm0/load_store_unit/store_data_m_14_BRB2.
-	Register(s) lm0/load_store_unit/store_data_m_15 has(ve) been backward balanced into : lm0/load_store_unit/store_data_m_15_BRB2.
+	Register(s) lm0/load_store_unit/store_data_m_10 has(ve) been backward balanced into : lm0/load_store_unit/store_data_m_10_BRB1 .
+	Register(s) lm0/load_store_unit/store_data_m_11 has(ve) been backward balanced into : lm0/load_store_unit/store_data_m_11_BRB1 .
+	Register(s) lm0/load_store_unit/store_data_m_12 has(ve) been backward balanced into : lm0/load_store_unit/store_data_m_12_BRB1 .
+	Register(s) lm0/load_store_unit/store_data_m_13 has(ve) been backward balanced into : lm0/load_store_unit/store_data_m_13_BRB1 .
+	Register(s) lm0/load_store_unit/store_data_m_14 has(ve) been backward balanced into : lm0/load_store_unit/store_data_m_14_BRB1 .
+	Register(s) lm0/load_store_unit/store_data_m_15 has(ve) been backward balanced into : lm0/load_store_unit/store_data_m_15_BRB1 .
 	Register(s) lm0/load_store_unit/store_data_m_16 has(ve) been backward balanced into : lm0/load_store_unit/store_data_m_16_BRB3.
 	Register(s) lm0/load_store_unit/store_data_m_17 has(ve) been backward balanced into : lm0/load_store_unit/store_data_m_17_BRB3.
 	Register(s) lm0/load_store_unit/store_data_m_18 has(ve) been backward balanced into : lm0/load_store_unit/store_data_m_18_BRB3.
@@ -1536,17 +1576,18 @@ Processing Unit <system> :
 	Register(s) lm0/load_store_unit/store_data_m_29 has(ve) been backward balanced into : lm0/load_store_unit/store_data_m_29_BRB3 .
 	Register(s) lm0/load_store_unit/store_data_m_30 has(ve) been backward balanced into : lm0/load_store_unit/store_data_m_30_BRB3 .
 	Register(s) lm0/load_store_unit/store_data_m_31 has(ve) been backward balanced into : lm0/load_store_unit/store_data_m_31_BRB1 lm0/load_store_unit/store_data_m_31_BRB3 .
-	Register(s) lm0/load_store_unit/store_data_m_8 has(ve) been backward balanced into : lm0/load_store_unit/store_data_m_8_BRB2.
-	Register(s) lm0/load_store_unit/store_data_m_9 has(ve) been backward balanced into : lm0/load_store_unit/store_data_m_9_BRB2.
+	Register(s) lm0/load_store_unit/store_data_m_8 has(ve) been backward balanced into : lm0/load_store_unit/store_data_m_8_BRB1 .
+	Register(s) lm0/load_store_unit/store_data_m_9 has(ve) been backward balanced into : lm0/load_store_unit/store_data_m_9_BRB1 .
 	Register(s) lm0/mc_arithmetic/a_31 has(ve) been backward balanced into : lm0/mc_arithmetic/a_31_BRB0 lm0/mc_arithmetic/a_31_BRB1 lm0/mc_arithmetic/a_31_BRB2.
 	Register(s) lm0/store_x has(ve) been backward balanced into : lm0/store_x_BRB0 lm0/store_x_BRB5.
 	Register(s) lm0/w_result_sel_mul_m has(ve) been backward balanced into : lm0/w_result_sel_mul_m_BRB0 lm0/w_result_sel_mul_m_BRB1.
 Unit <system> processed.
 FlipFlop uart0/uart0/uart_txd has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop spi0/first_rst0/rst has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop spi0/spi_cs_0 has been replicated 1 time(s) to handle iob=true attribute.
+FlipFlop spi0/dc has been replicated 1 time(s) to handle iob=true attribute.
 FlipFlop spi0/sreg_7 has been replicated 1 time(s) to handle iob=true attribute.
 FlipFlop spi0/sck has been replicated 1 time(s) to handle iob=true attribute.
-FlipFlop i2c0/bit_controller/sda_oen has been replicated 1 time(s) to handle iob=true attribute.
-FlipFlop i2c0/bit_controller/scl_oen has been replicated 1 time(s) to handle iob=true attribute.
 
 Final Macro Processing ...
 
@@ -1554,8 +1595,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 1333
- Flip-Flops                                            : 1333
+# Registers                                            : 1358
+ Flip-Flops                                            : 1358
 
 =========================================================================
 
@@ -1578,39 +1619,38 @@ Top Level Output File Name         : system.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 2201
+# BELS                             : 2267
 #      GND                         : 1
-#      INV                         : 30
-#      LUT1                        : 100
-#      LUT2                        : 199
-#      LUT3                        : 210
-#      LUT4                        : 217
-#      LUT5                        : 300
-#      LUT6                        : 605
-#      MUXCY                       : 276
-#      MUXF7                       : 10
+#      INV                         : 32
+#      LUT1                        : 107
+#      LUT2                        : 200
+#      LUT3                        : 217
+#      LUT4                        : 213
+#      LUT5                        : 320
+#      LUT6                        : 624
+#      MUXCY                       : 283
+#      MUXF7                       : 9
 #      VCC                         : 1
-#      XORCY                       : 252
-# FlipFlops/Latches                : 1333
-#      FD                          : 24
+#      XORCY                       : 260
+# FlipFlops/Latches                : 1358
+#      FD                          : 28
 #      FDC                         : 162
 #      FDCE                        : 765
-#      FDE                         : 77
+#      FDE                         : 85
 #      FDP                         : 6
-#      FDPE                        : 53
-#      FDR                         : 30
-#      FDRE                        : 139
-#      FDS                         : 4
+#      FDPE                        : 51
+#      FDR                         : 33
+#      FDRE                        : 149
+#      FDS                         : 6
 #      FDSE                        : 73
 # RAMS                             : 65
 #      RAM32X1D                    : 64
 #      RAMB36E1                    : 1
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
-# IO Buffers                       : 9
+# IO Buffers                       : 10
 #      IBUF                        : 3
-#      IOBUF                       : 2
-#      OBUF                        : 4
+#      OBUF                        : 7
 # DSPs                             : 3
 #      DSP48E1                     : 3
 
@@ -1621,23 +1661,23 @@ Selected Device : 7a100tcsg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:            1327  out of  126800     1%  
- Number of Slice LUTs:                 1789  out of  63400     2%  
-    Number used as Logic:              1661  out of  63400     2%  
+ Number of Slice Registers:            1351  out of  126800     1%  
+ Number of Slice LUTs:                 1841  out of  63400     2%  
+    Number used as Logic:              1713  out of  63400     2%  
     Number used as Memory:              128  out of  19000     0%  
        Number used as RAM:              128
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   2027
-   Number with an unused Flip Flop:     700  out of   2027    34%  
-   Number with an unused LUT:           238  out of   2027    11%  
-   Number of fully used LUT-FF pairs:  1089  out of   2027    53%  
-   Number of unique control sets:        51
+ Number of LUT Flip Flop pairs used:   2074
+   Number with an unused Flip Flop:     723  out of   2074    34%  
+   Number with an unused LUT:           233  out of   2074    11%  
+   Number of fully used LUT-FF pairs:  1118  out of   2074    53%  
+   Number of unique control sets:        54
 
 IO Utilization: 
- Number of IOs:                          10
- Number of bonded IOBs:                  10  out of    210     4%  
-    IOB Flip Flops/Latches:               6
+ Number of IOs:                          11
+ Number of bonded IOBs:                  11  out of    210     5%  
+    IOB Flip Flops/Latches:               7
 
 Specific Feature Utilization:
  Number of Block RAM/FIFO:                1  out of    135     0%  
@@ -1666,7 +1706,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-clk                                | BUFGP                  | 1398  |
+clk                                | BUFGP                  | 1423  |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -1689,7 +1729,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
   Clock period: 6.292ns (frequency: 158.937MHz)
-  Total number of paths / destination ports: 1326729 / 3303
+  Total number of paths / destination ports: 1328258 / 3346
 -------------------------------------------------------------------------
 Delay:               6.292ns (Levels of Logic = 3)
   Source:            lm0/multiplier/multiplier_1 (FF)
@@ -1712,7 +1752,7 @@ Delay:               6.292ns (Levels of Logic = 3)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 1418 / 1413
+  Total number of paths / destination ports: 1428 / 1425
 -------------------------------------------------------------------------
 Offset:              1.706ns (Levels of Logic = 3)
   Source:            rst (PAD)
@@ -1723,7 +1763,7 @@ Offset:              1.706ns (Levels of Logic = 3)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           134   0.001   0.816  rst_IBUF (rst_IBUF)
+     IBUF:I->O           135   0.001   0.816  rst_IBUF (rst_IBUF)
      LUT6:I0->O            2   0.097   0.688  i2c0/registers/_n0186_inv1 (i2c0/registers/_n0186_inv)
      LUT5:I0->O            1   0.097   0.000  i2c0/registers/cr_3_rstpot (i2c0/registers/cr_3_rstpot)
      FDC:D                     0.008          i2c0/registers/cr_3
@@ -1733,7 +1773,7 @@ Offset:              1.706ns (Levels of Logic = 3)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
-  Total number of paths / destination ports: 6 / 6
+  Total number of paths / destination ports: 7 / 7
 -------------------------------------------------------------------------
 Offset:              1.037ns (Levels of Logic = 2)
   Source:            uart0/uart0/uart_txd (FF)
@@ -1767,15 +1807,15 @@ clk            |    6.292|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 109.00 secs
-Total CPU time to Xst completion: 105.20 secs
+Total REAL time to Xst completion: 28.00 secs
+Total CPU time to Xst completion: 25.12 secs
  
 --> 
 
 
-Total memory usage is 514252 kilobytes
+Total memory usage is 512568 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  334 (   0 filtered)
-Number of infos    :  106 (   0 filtered)
+Number of warnings :  328 (   0 filtered)
+Number of infos    :  114 (   0 filtered)
 
