@@ -30,6 +30,13 @@
 *.sdbx
 *.vcd
 *.vvp
+*.vcd.save.sav
+*.save.sav
+*.sav
+*.bit
+
+## ignoring simulation files (big vcd dump files)
+simulation/
 
 # Compiled source #
 ###################
