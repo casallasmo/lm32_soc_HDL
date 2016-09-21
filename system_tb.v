@@ -58,7 +58,7 @@ initial begin
 	#0  rst <= 0;
 	#40 rst <= 1;
 
-	#(1800000) $finish;
+	#(300000*4) $finish;
 end
 
 

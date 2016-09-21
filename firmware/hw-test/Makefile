@@ -6,11 +6,11 @@ LM32_OBJDUMP=lm32-rtems4.11-objdump
 SREC2VRAM ?= ../../tools/srec2vram/srec2vram
 VRAMFILE=image.ram
 
-CFLAGS=-MMD -O2 -Wall -g -s -fomit-frame-pointer -mbarrel-shift-enabled -msign-extend-enabled  -mmultiply-enabled -mdivide-enabled 
-LDFLAGS=-nostdlib -nodefaultlibs -Tlinker.ld 
+CFLAGS=-MMD -O2 -Wall -g -s -fomit-frame-pointer -mbarrel-shift-enabled   -mmultiply-enabled -mdivide-enabled -msign-extend-enabled
+LDFLAGS=-nostdlib -nodefaultlibs -Tlinker.ld
 SEGMENTS = -j .text -j .rodata -j .data
 
-all: image.srec $(VRAMFILE) 
+all: image.srec $(VRAMFILE)
 
 crt0ram.o: crt0ram.S
 	$(LM32_CC) $(CFLAGS) -c crt0ram.S
@@ -21,7 +21,7 @@ main.o: main.c
 soc-hw.o: soc-hw.c
 	$(LM32_CC) $(CFLAGS) -c soc-hw.c
 
-image: crt0ram.o main.o soc-hw.o 
+image: crt0ram.o main.o soc-hw.o
 	$(LM32_LD) $(LDFLAGS) -Map image.map -N -o image crt0ram.o main.o soc-hw.o
 
 image.lst: image
@@ -40,4 +40,3 @@ DEPS := $(wildcard *.d)
 ifneq ($(DEPS),)
 include $(DEPS)
 endif
-

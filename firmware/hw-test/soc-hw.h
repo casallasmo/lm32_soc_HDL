@@ -129,10 +129,10 @@ typedef struct {
 
 void spi_lcd_init();
 void spi_sendbyte(uint8_t c, uint8_t d_c);
-void spi_lcd_putchar(char *c);
-void spi_lcd_putchar1(char *c);
-void spi_lcd_putchar2(char *c);
-void spi_lcd_putstring(char *str);
+void spi_lcd_putchar(char c, uint8_t m);
+// void spi_lcd_putchar1(char *c);
+// void spi_lcd_putchar2(char *c);
+void spi_lcd_putstring(char *str, uint8_t r_size);
 void spi_lcd_blank();
 void spi_lcd_invert();
 uint8_t spi_lcd_getx();
