@@ -28,6 +28,8 @@
 *.xbcd
 *.sdbl
 *.sdbx
+*.vcd
+*.vvp
 
 # Compiled source #
 ###################
